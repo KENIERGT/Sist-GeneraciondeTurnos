@@ -1,0 +1,6 @@
+# Git normaliza los saltos de línea; los .bat de Windows deben conservar CRLF
+* text=auto
+*.bat text eol=crlf
+
+# Bibliotecas de terceros: GitHub no las cuenta en los lenguajes del repositorio
+lib/** linguist-vendored
